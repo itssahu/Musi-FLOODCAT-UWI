@@ -42,6 +42,7 @@ Larger symbols (high population exposure) that also show elevated composite risk
 
 ## Probabilistic Flood Catastrophe Risk Modeling and Deep Generative Tail Amplification
 <img width="890" height="590" alt="image" src="https://github.com/user-attachments/assets/748890cc-261e-4296-93b5-5d6db82b3d32" />
+
 Figure. Annual Exceedance Probability (EP) curves for flood-induced losses in the Musi Basin derived from EVT-only return levels (black), Monte Carlo catastrophe simulation (red), and EVT with VAE-based tail amplification (blue).
 The EVT-only curve is defined by a small number of return levels and spans a limited loss range, representing single-event severity without annual loss aggregation; it lies above the simulated curves and does not resolve the extreme low-probability tail. Monte Carlo simulation extends EVT into a full annual loss distribution by sampling event frequency over 10,000 synthetic years, producing a smoother EP curve and substantially higher loss estimates at low exceedance probabilities. However, the Monte Carlo tail remains constrained by the parametric EVT structure used to generate extreme rainfall. The VAE-amplified curve departs from the Monte Carlo curve only in the lowest EP region (EP < 10⁻³), where losses increase further, indicating heavier and more variable tail behavior. This separation shows that deep generative tail sampling does not alter typical or moderate risk but materially affects rare, high-consequence losses that dominate capital adequacy, stress testing, and reinsurance attachment decisions.
 
