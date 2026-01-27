@@ -49,7 +49,7 @@ Larger symbols (high population exposure) that also show elevated composite risk
 
 <img width="1244" height="528" alt="image" src="https://github.com/user-attachments/assets/0aed1bfa-f94a-4612-85c6-9a1430716ad3" />
 
-Figure 7.Variational autoencoder (VAE) used for rainfall tail enrichment. The input $x$ represents log rainfall tail exceedances above the 95th percentile (P95+). The encoder maps $x$ to a latent Gaussian representation, from which samples are drawn using the reparameterization trick. The decoder reconstructs the rainfall tail value $\hat{x}$, and training minimizes the evidence lower bound (ELBO), consistent with the implemented architecture and loss formulation.
+Figure 7.Variational autoencoder (VAE) used for rainfall tail enrichment. The input $x$ represents log rainfall tail exceedances above the 95th percentile (P95+). The encoder maps $x$ to a latent Gaussian representation, from which samples are drawn using the reparameterization trick. The decoder reconstructs the rainfall tail value $\hat{x}$, and training maximizes the evidence lower bound (ELBO), consistent with the implemented architecture and loss formulation.
 
 <img width="890" height="590" alt="image" src="https://github.com/user-attachments/assets/748890cc-261e-4296-93b5-5d6db82b3d32" />
 
