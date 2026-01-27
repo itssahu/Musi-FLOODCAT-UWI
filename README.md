@@ -26,6 +26,9 @@ These results show that climate stress manifests primarily through amplification
 Figure. Facility-level climate-conditioned flood tail loss uplift under moderate (S1, +10%) and severe (S2, +25%) loss stress scenarios for a 100-year flood event. While the spatial pattern of tail-sensitive facilities remains consistent, S2 produces non-linear amplification in a subset of assets, indicating that climate stress primarily intensifies extreme loss severity rather than uniformly increasing risk. This highlights that climate-driven vulnerability is concentrated in structurally tail-sensitive facilities, which dominate portfolio losses under severe stress.
 
 <img width="1020" height="678" alt="image" src="https://github.com/user-attachments/assets/40f0a3e3-cb6e-45cb-8047-b753aece109f" />
+
+Figure. Bio-physical flood susceptibility (total wetness) of wastewater facilities in the Musi sub-basin, derived from a weighted combination of drainage proximity, elevation percentile, and slope percentile. High susceptibility clusters along the Musi river and low-lying floodplain zones, highlighting terrain-controlled flood accumulation potential independent of event magnitude. Symbol size denotes population exposure, shown separately to preserve a clear distinction between physical hazard propensity and downstream impact.
+
 <img width="1020" height="678" alt="image" src="https://github.com/user-attachments/assets/55537070-b2ce-4393-bfce-1c3e9e5d690b" />
 <img width="1020" height="678" alt="image" src="https://github.com/user-attachments/assets/d24fb621-8933-4bab-9b19-c445ef078214" />
 <img width="1552" height="841" alt="image" src="https://github.com/user-attachments/assets/1f27b3b7-74c6-4856-b807-0fbff23bf82a" />
