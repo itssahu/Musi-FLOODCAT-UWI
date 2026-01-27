@@ -52,7 +52,7 @@ Monte Carlo improves convergence of EVT-based loss aggregation but remains confi
 
 Figure. Facility-level incremental flood tail loss uplift introduced by VAE-based tail enrichment relative to Monte Carlo simulation. VAE amplification is spatially concentrated along the Musi river corridor, indicating that deep generative modeling captures rare, spatially correlated extreme flood configurations that are not fully represented by stochastic Monte Carlo aggregation.
 
-## Climate change stress testing 
+## Climate stress testing 
 
 <img width="890" height="590" alt="image" src="https://github.com/user-attachments/assets/8433b1e3-e331-4a2a-9934-3d26363c346c" />
 
