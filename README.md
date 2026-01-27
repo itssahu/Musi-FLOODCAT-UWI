@@ -123,7 +123,7 @@ Parameter uncertainty (EVT, damage functions) and generative uncertainty (VAE la
 #### Climate stress representation
 Climate change is represented through controlled tail amplification rather than fully transient climate model projections, prioritizing stress-testing realism over long-term scenario forecasting.
 
-## Future Scope — Climate AI & Advanced Modeling
+## Future Scope-Climate AI & Advanced Modeling
 
 #### Conditioned generative models for climate drivers
 Extend the VAE to a conditional VAE or diffusion model conditioned on large-scale climate variables (e.g., ENSO, monsoon indices, SST anomalies).
