@@ -1,4 +1,71 @@
 # Probabilistic Flood Catastrophe Risk Modeling for Urban Wastewater Infrastructure under Climate Extremes
+
+┌──────────────────────────────────────────────┐
+│                Study Region                  │
+│      Musi Sub-Basin (Hyderabad, India)       │
+│  Basin boundary, river network, facilities   │
+└──────────────────────────────────────────────┘
+                        ↓
+┌──────────────────────────────────────────────┐
+│         Static Physical Baseline             │
+│  SRTM DEM → Elevation, Slope, Drainage       │
+│  HydroRIVERS → River proximity               │
+└──────────────────────────────────────────────┘
+                        ↓
+┌──────────────────────────────────────────────┐
+│      Static Flood Hazard Index (Baseline)    │
+│  Drainage + Elevation + Slope                │
+│  → Physical flood susceptibility             │
+└──────────────────────────────────────────────┘
+                        ↓
+┌──────────────────────────────────────────────┐
+│         Population Exposure Layer            │
+│  WorldPop 2020 → Facility-level exposure     │
+└──────────────────────────────────────────────┘
+                        ↓
+┌──────────────────────────────────────────────┐
+│      Socio-Economic Exposure Index           │
+│  Population × Service Criticality            │
+└──────────────────────────────────────────────┘
+                        ↓
+┌──────────────────────────────────────────────┐
+│        Adaptive Capacity Assessment          │
+│  Institutional + Physical + Accessibility    │
+└──────────────────────────────────────────────┘
+                        ↓
+┌──────────────────────────────────────────────┐
+│        Composite Climate Risk Index          │
+│  Hazard × Exposure × (1 − Capacity)          │
+└──────────────────────────────────────────────┘
+                        ↓
+┌──────────────────────────────────────────────┐
+│      Dynamic Hazard Forcing                  │
+│   (ERA5+IMD-> Bias correction                │
+│  Daily rainfall, basin-filtered, extremes    │
+└──────────────────────────────────────────────┘
+                        ↓
+┌──────────────────────────────────────────────┐
+│            Extreme Value Theory              │
+│  Return periods, tail probabilities          │
+└──────────────────────────────────────────────┘
+                        ↓
+┌──────────────────────────────────────────────┐
+│        Monte Carlo Loss Simulation           │
+│  Event-based losses, EP curves, AAL          │
+└──────────────────────────────────────────────┘
+                        ↓
+┌──────────────────────────────────────────────┐
+│   VAE-Based Tail Amplification               │
+│  Rare but plausible extreme flood losses     │
+└──────────────────────────────────────────────┘
+                        ↓
+┌──────────────────────────────────────────────┐
+│      Dual Risk Outputs (Final Lens)          │
+│                                              │
+│  • Financial Tail Risk (₹ loss hotspots)     │
+│  • Composite Climate Risk (systemic)         │
+└──────────────────────────────────────────────┘
+
 Musi River Sub-Basin, Hyderabad, India
 
 
