@@ -1,70 +1,4 @@
-# Probabilistic Flood Catastrophe Risk Modeling for Urban Wastewater Infrastructure under Climate Extremes
-
-┌──────────────────────────────────────────────┐
-│                Study Region                  │
-│      Musi Sub-Basin (Hyderabad, India)       │
-│  Basin boundary, river network, facilities   │
-└──────────────────────────────────────────────┘
-                        ↓
-┌──────────────────────────────────────────────┐
-│         Static Physical Baseline             │
-│  SRTM DEM → Elevation, Slope, Drainage       │
-│  HydroRIVERS → River proximity               │
-└──────────────────────────────────────────────┘
-                        ↓
-┌──────────────────────────────────────────────┐
-│      Static Flood Hazard Index (Baseline)    │
-│  Drainage + Elevation + Slope                │
-│  → Physical flood susceptibility             │
-└──────────────────────────────────────────────┘
-                        ↓
-┌──────────────────────────────────────────────┐
-│         Population Exposure Layer            │
-│  WorldPop 2020 → Facility-level exposure     │
-└──────────────────────────────────────────────┘
-                        ↓
-┌──────────────────────────────────────────────┐
-│      Socio-Economic Exposure Index           │
-│  Population × Service Criticality            │
-└──────────────────────────────────────────────┘
-                        ↓
-┌──────────────────────────────────────────────┐
-│        Adaptive Capacity Assessment          │
-│  Institutional + Physical + Accessibility    │
-└──────────────────────────────────────────────┘
-                        ↓
-┌──────────────────────────────────────────────┐
-│        Composite Climate Risk Index          │
-│  Hazard × Exposure × (1 − Capacity)          │
-└──────────────────────────────────────────────┘
-                        ↓
-┌──────────────────────────────────────────────┐
-│      Dynamic Hazard Forcing                  │
-│   (ERA5+IMD-> Bias correction                │
-│  Daily rainfall, basin-filtered, extremes    │
-└──────────────────────────────────────────────┘
-                        ↓
-┌──────────────────────────────────────────────┐
-│            Extreme Value Theory              │
-│  Return periods, tail probabilities          │
-└──────────────────────────────────────────────┘
-                        ↓
-┌──────────────────────────────────────────────┐
-│        Monte Carlo Loss Simulation           │
-│  Event-based losses, EP curves, AAL          │
-└──────────────────────────────────────────────┘
-                        ↓
-┌──────────────────────────────────────────────┐
-│   VAE-Based Tail Amplification               │
-│  Rare but plausible extreme flood losses     │
-└──────────────────────────────────────────────┘
-                        ↓
-┌──────────────────────────────────────────────┐
-│      Dual Risk Outputs (Final Lens)          │
-│                                              │
-│  • Financial Tail Risk (₹ loss hotspots)     │
-│  • Composite Climate Risk (systemic)         │
-└──────────────────────────────────────────────┘
+# Probabilistic Flood Catastrophe Risk Modeling of Urban Wastewater Infrastructure Integrating Deep Generative Tail Amplification and Systemic Climate Vulnerability
 
 Musi River Sub-Basin, Hyderabad, India
 
@@ -73,6 +7,8 @@ Musi River Sub-Basin, Hyderabad, India
 
 Figure . Basin-scale hydro-terrain, exposure, and wastewater infrastructure context for the Musi sub-basin.
 Elevation and slope maps show a low-relief floodplain aligned with the Musi River, indicating areas prone to flood accumulation and slow drainage. The river network highlights strong drainage convergence through the Hyderabad urban corridor. Population exposure is highly concentrated in this zone. Wastewater facilities, including treatment plants, landfills, and transfer stations (shown with different symbols) are located along these flood-prone and high-exposure areas. This static basin-scale context defines the physical and socio-economic setting used to condition all subsequent flood hazard, loss, and tail-risk modeling.
+
+## Systemic Climate Vulnerability Assessment
 
 <img width="1020" height="678" alt="image" src="https://github.com/user-attachments/assets/40f0a3e3-cb6e-45cb-8047-b753aece109f" />
 
@@ -90,7 +26,7 @@ Figure. Adaptive capacity of wastewater facilities in the Musi sub-basin, repres
 
 Figure. Composite Climate Risk Index of wastewater infrastructure in the Musi sub-basin. Point color represents the integrated risk metric defined as Hazard × Exposure × (1 − Adaptive Capacity), while symbol size denotes population exposure. High-risk facilities cluster along the Musi River flood corridor, where terrain-driven flood susceptibility coincides with dense population exposure and limited adaptive capacity, highlighting priority assets for resilience and risk mitigation.
 
-### Key Insights from the Composite Climate Risk Map
+### Key Insights
 
 #### Risk concentrates along the Musi River corridor
 Facilities located directly on or immediately adjacent to the Musi River exhibit the highest composite climate risk, reflecting the compounding effect of flood susceptibility and exposure despite varying adaptive capacities.
@@ -104,6 +40,7 @@ Facilities in similar hydro-terrain settings show markedly different risk levels
 #### Large-population assets dominate risk prioritization
 Larger symbols (high population exposure) that also show elevated composite risk identify systemically important infrastructure, where failure would propagate impacts well beyond the facility footprint.
 
+## Probabilistic Flood Catastrophe Risk Modeling and Deep Generative Tail Amplification
 <img width="890" height="590" alt="image" src="https://github.com/user-attachments/assets/748890cc-261e-4296-93b5-5d6db82b3d32" />
 Figure. Annual Exceedance Probability (EP) curves for flood-induced losses in the Musi Basin derived from EVT-only return levels (black), Monte Carlo catastrophe simulation (red), and EVT with VAE-based tail amplification (blue).
 The EVT-only curve is defined by a small number of return levels and spans a limited loss range, representing single-event severity without annual loss aggregation; it lies above the simulated curves and does not resolve the extreme low-probability tail. Monte Carlo simulation extends EVT into a full annual loss distribution by sampling event frequency over 10,000 synthetic years, producing a smoother EP curve and substantially higher loss estimates at low exceedance probabilities. However, the Monte Carlo tail remains constrained by the parametric EVT structure used to generate extreme rainfall. The VAE-amplified curve departs from the Monte Carlo curve only in the lowest EP region (EP < 10⁻³), where losses increase further, indicating heavier and more variable tail behavior. This separation shows that deep generative tail sampling does not alter typical or moderate risk but materially affects rare, high-consequence losses that dominate capital adequacy, stress testing, and reinsurance attachment decisions.
@@ -113,6 +50,8 @@ Monte Carlo improves convergence of EVT-based loss aggregation but remains confi
 <img width="1017" height="675" alt="image" src="https://github.com/user-attachments/assets/2e7b69db-50f9-4a67-8835-d533c730f0fe" />
 
 Figure. Facility-level incremental flood tail loss uplift introduced by VAE-based tail enrichment relative to Monte Carlo simulation. VAE amplification is spatially concentrated along the Musi river corridor, indicating that deep generative modeling captures rare, spatially correlated extreme flood configurations that are not fully represented by stochastic Monte Carlo aggregation.
+
+## Climate change stress testing 
 
 <img width="890" height="590" alt="image" src="https://github.com/user-attachments/assets/8433b1e3-e331-4a2a-9934-3d26363c346c" />
 
