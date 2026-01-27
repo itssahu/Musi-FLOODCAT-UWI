@@ -65,6 +65,8 @@ These results show that climate stress manifests primarily through amplification
 
 Figure. Facility-level climate-conditioned flood tail loss uplift under moderate (S1, +10%) and severe (S2, +25%) loss stress scenarios for a 100-year flood event. While the spatial pattern of tail-sensitive facilities remains consistent, S2 produces non-linear amplification in a subset of assets, indicating that climate stress primarily intensifies extreme loss severity rather than uniformly increasing risk. This highlights that climate-driven vulnerability is concentrated in structurally tail-sensitive facilities, which dominate portfolio losses under severe stress.
 
+## Integrated Climate–Catastrophe Risk Interpretation
+
 <img width="1552" height="841" alt="image" src="https://github.com/user-attachments/assets/1f27b3b7-74c6-4856-b807-0fbff23bf82a" />
 Figure X. VAE-Amplified Extreme Flood Tail Risk versus Composite Climate Risk for Urban Wastewater Infrastructure in the Musi Sub-Basin (Hyderabad, India).
 
