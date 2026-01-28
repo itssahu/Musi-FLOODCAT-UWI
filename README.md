@@ -2,7 +2,7 @@
 
 Musi River Sub-Basin, Hyderabad, India
 
-<img width="1069" height="869" alt="image" src="https://github.com/user-attachments/assets/b54847a3-7a6e-486d-8860-2e5d0b2c3166" />
+<img width="1096" height="882" alt="image" src="https://github.com/user-attachments/assets/97aa6093-3ab7-4085-8a21-f057f21cf6c7" />
 
 Figure 1. Probabilistic flood catastrophe modeling framework combining EVT-conditioned stochastic loss modeling and generative tail amplification for rare events (EP $<$ 2\%) (blue) with a parallel systemic climate risk pipeline(red) producing a Composite Climate Risk Index (CCRI). Both probabilistic tail risk and structural vulnerability inform an integrated downstream risk decision layer.
 
