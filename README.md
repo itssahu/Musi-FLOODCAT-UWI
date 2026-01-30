@@ -31,7 +31,7 @@ Figure 5. Adaptive capacity of wastewater facilities in the Musi sub-basin, repr
 
 <img width="1500" height="995" alt="image" src="https://github.com/user-attachments/assets/70a57cd6-2c7e-43d8-97a2-240dd73504c1" />
 
-Figure 6. Composite Climate Risk Index of wastewater infrastructure in the Musi sub-basin. Point color represents the integrated risk metric defined as Hazard × Exposure × (1 − Adaptive Capacity)(IPCC AR6), while symbol size denotes population exposure. High-risk facilities cluster along the Musi River flood corridor, where terrain-driven flood susceptibility coincides with dense population exposure and limited adaptive capacity, highlighting priority assets for resilience and risk mitigation.
+Figure 6. Composite Climate Risk Index of wastewater infrastructure in the Musi sub-basin. Point color represents the integrated risk metric defined as Hazard × Exposure × (1 − Adaptive Capacity){IPCC AR6 based}, while symbol size denotes population exposure. High-risk facilities cluster along the Musi River flood corridor, where terrain-driven flood susceptibility coincides with dense population exposure and limited adaptive capacity, highlighting priority assets for resilience and risk mitigation.
 
 ### Key Insights
 
