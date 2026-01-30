@@ -1,4 +1,4 @@
-# Probabilistic Flood Catastrophe Modeling for Urban Wastewater Infrastructure Using Generative Tail Risk and Systemic Climate Vulnerability
+# A Dual-Lens Framework for Urban Wastewater Infrastructure: Probabilistic Catastrophe Modeling with Generative Extreme Tail Risk and Systemic Climate Vulnerability Assessment
 
 Musi River Sub-Basin, Hyderabad, India
 
