@@ -1,6 +1,8 @@
 # A Dual-Lens Framework for Urban Wastewater Infrastructure: Probabilistic Catastrophe Modeling with Generative Extreme Tail Risk and Systemic Climate Vulnerability Assessment
 
-Musi River Sub-Basin, Hyderabad, India
+ROA: Musi River Sub-Basin, Hyderabad, India
+
+Probabilistic flood catastrophe loss modeling and systemic climate vulnerability are developed as parallel modules and integrated only at the decision layer for capital allocation, resilience planning, and adaptation.
 
 <img width="1096" height="882" alt="image" src="https://github.com/user-attachments/assets/97aa6093-3ab7-4085-8a21-f057f21cf6c7" />
 
